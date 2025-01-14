@@ -1,17 +1,11 @@
 {
-  "name": "react-credit-cards-2",
+  "name": "react-19-credit-cards",
   "version": "1.0.3",
   "description": "Beautiful credit cards for your payment forms",
   "author": "AMARO Fashion <tech@amaro.com>",
   "contributors": [
-    {
-      "name": "Cassio Cardoso",
-      "email": "caugusto.cardoso@gmail.com"
-    },
-    {
-      "name": "Gil Barbara",
-      "email": "gil.barbara@amaro.com"
-    }
+    "Cassio Cardoso <caugusto.cardoso@gmail.com>",
+    "Gil Barbara <gil.barbara@amaro.com>"
   ],
   "repository": {
     "type": "git",
@@ -36,7 +30,7 @@
     "payment"
   ],
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    "react": "^19.0.0"
   },
   "dependencies": {
     "credit-card-type": "^9.1.0",
@@ -72,9 +66,9 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "@size-limit/preset-small-lib": "^8.2.4",
     "@testing-library/jest-dom": "^6.1.3",
-    "@testing-library/react": "^12.1.5",
+    "@testing-library/react": "^16.1.0",
     "@types/jest": "^29.4.0",
-    "@types/react": "^18.0.28",
+    "@types/react": "^19.0.6",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
     "@typescript-eslint/parser": "^5.52.0",
     "autoprefixer": "^10.2.6",
@@ -93,9 +87,8 @@
     "jest-environment-jsdom": "^29.4.2",
     "postcss": "^8.3.11",
     "postcss-cli": "^8.3.1",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "react-test-renderer": "^17.0.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "repo-tools": "^0.2.2",
     "rimraf": "^4.1.2",
     "rollup": "^3.15.0",
@@ -146,5 +139,10 @@
       "post-merge": "repo-tools install-packages",
       "pre-commit": "repo-tools check-remote && npm run validate"
     }
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "example",
+    "test": "test"
   }
 }
